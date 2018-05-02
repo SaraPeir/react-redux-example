@@ -1,18 +1,16 @@
 # react-redux-test
-Simple explicative test with input in order to understand better the react-redux use.
+Simple explicative example with input in order to understand better the react-redux use. In my repositories you can find the analogous version of this repository made with react only (react-test-input).
 
 
 The main files hierarchy is described hereafter: [App.js (Father)] > [Input.js, Sentence.js (Children)].
 
 The following instructions are useful if you will get a copy of the project and run on your local machine.
 
-Installing
-Commands in console:
-React installing: npm install
-Redux installing: npm install --save redux
-React-Redux installing: npm install --save react-redux
+Installing, commands in console:
+(i) React installing: npm install,
+(ii) Redux installing: npm install --save redux,
+(iii) React-Redux installing: npm install --save react-redux
 
-Running
-Commands in console:
-Running: npm start;
-Stopping: Contr+C
+Running, commands in console:
+(i) Running: npm start;
+(ii) Stopping: Contr+C
