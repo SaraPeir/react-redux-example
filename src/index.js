@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import store from './store';
+import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
 
 
 function render(){ //redux
 ReactDOM.render(
-<div>
-  <App />
-</div>
+  <BrowserRouter>
+      <App />
+    </BrowserRouter>
 , document.getElementById('root'));
  } //redux
 

@@ -1,5 +1,5 @@
 # react-redux-test
-Simple explicative example with input in order to understand better the react-redux use. In my repositories you can find the analogous version of this repository made with react only (react-test-input).
+Simple explicative example with input in order to understand better the react-redux use. This is a little bit more complex version of 'react-redux-test' repository that you can find among my reposotories. Moreover, among my repositories, you can find the analogous version of 'react-redux-test' repository made with react only ('react-test-input').
 
 
 The main files hierarchy is described hereafter: [App.js (Father)] > [Input.js, Sentence.js (Children)].

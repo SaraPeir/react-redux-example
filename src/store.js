@@ -9,7 +9,9 @@ inputValue: ''
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case 'INPUT_CHANGE':
-      return Object.assign({}, state, {inputValue: action.text})  //text es la segunda llave del la comst action n InputMirror
+      return Object.assign({}, state, {inputValue: action.text}); //text es la segunda llave del la comst action n InputMirror
+      case 'INPUT_RESET':
+        return Object.assign({}, state, {inputValue: ''});
     default:
       return state
   }
